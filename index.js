@@ -8,3 +8,5 @@ var arr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 var _a = lodash_1.partition(arr2, function (n) { return n % 2 === 0; }), even = _a[0], odd = _a[1];
 console.log(even);
 console.log(odd);
+var age = 23;
+var gender = "male";

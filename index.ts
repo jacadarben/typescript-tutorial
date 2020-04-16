@@ -9,3 +9,9 @@ const arr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 const [even, odd] = partition(arr2, (n) => n % 2 === 0)
 console.log(even);
 console.log(odd);
+
+let age: number = 23;
+
+type Gender = "male" | "female";
+
+let gender: Gender = "male"
