@@ -1,1 +1,3 @@
-console.log("Hello World");
+async function hello(name: string) {
+	console.log(`hello ${name}`);
+}
