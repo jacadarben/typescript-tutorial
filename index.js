@@ -1,2 +1,10 @@
 "use strict";
-// const url = new URL();
+Object.defineProperty(exports, "__esModule", { value: true });
+var lodash_1 = require("lodash");
+var arr = [0, 1, false, 2, undefined, 3, 4, null, "", 5, NaN];
+console.log(arr);
+console.log(lodash_1.compact(arr));
+var arr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+var _a = lodash_1.partition(arr2, function (n) { return n % 2 === 0; }), even = _a[0], odd = _a[1];
+console.log(even);
+console.log(odd);
