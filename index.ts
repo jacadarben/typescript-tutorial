@@ -1,3 +1,1 @@
-async function hello(name: string) {
-	console.log(`hello ${name}`);
-}
+const url = new URL();
