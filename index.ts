@@ -1,5 +1,6 @@
 import { compact, partition } from "lodash";
 import { Animal } from "./Animal";
+import { Dog } from "./dog";
 
 const arr = [0, 1, false, 2, undefined, 3, 4, null, "", 5, NaN];
 console.log(arr);
@@ -69,8 +70,11 @@ arrr.push(1);
 arrr.push("1");
 arrr.push(true);
 
-let animal = new Animal("ani");
-console.log(animal.name);
-animal.name = "annie";
-animal.walk(3);
+// let animal = new Animal("ani");
+// console.log(animal.name);
+// animal.name = "annie";
+// animal.walk(3);
 
+let dog = new Dog("fido", 3);
+
+dog.walk(4);

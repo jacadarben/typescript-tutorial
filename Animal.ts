@@ -1,4 +1,4 @@
-export class Animal {
+export abstract class Animal {
     constructor(private _name: string) {}
     
     public get name() : string {
