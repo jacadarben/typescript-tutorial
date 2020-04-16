@@ -16,7 +16,7 @@ var person1 = {
     age: 23,
     gender: "male",
     streetNumber: 123,
-    street: "street rd",
+    street: "street rd"
 };
 var person2 = {
     first: "jane",
@@ -27,3 +27,8 @@ var person2 = {
         return income * 0.7;
     }
 };
+function pow(x, y) {
+    return Math.pow(x, y);
+}
+var arr3 = ["1", "2", "3"];
+arr3.push(pow(2, 5).toString());
