@@ -49,3 +49,13 @@ function pow(x: number, y: number): number {
 
 const arr3 = ["1", "2", "3"];
 arr3.push(pow(2, 5).toString());
+
+function callFlow(param: string | number) {
+	if (typeof param === "string") {
+		param++;
+		param.indexOf("a");
+	} else {
+		param++;
+		param.indexOf("a");
+	}
+}
