@@ -1,4 +1,5 @@
 import { compact, partition } from "lodash";
+import { Animal } from "./Animal";
 
 const arr = [0, 1, false, 2, undefined, 3, 4, null, "", 5, NaN];
 console.log(arr);
@@ -50,15 +51,15 @@ function pow(x: number, y: number): number {
 const arr3 = ["1", "2", "3"];
 arr3.push(pow(2, 5).toString());
 
-function callFlow(param: string | number) {
-	if (typeof param === "string") {
-		param++;
-		param.indexOf("a");
-	} else {
-		param++;
-		param.indexOf("a");
-	}
-}
+// function callFlow(param: string | number) {
+// 	if (typeof param === "string") {
+// 		param++;
+// 		param.indexOf("a");
+// 	} else {
+// 		param++;
+// 		param.indexOf("a");
+// 	}
+// }
 
 type MyArrType = [number?, string?, boolean?];
 
@@ -67,3 +68,9 @@ const arrr: MyArrType = [];
 arrr.push(1);
 arrr.push("1");
 arrr.push(true);
+
+let animal = new Animal("ani");
+console.log(animal.name);
+animal.name = "annie";
+animal.walk(3);
+

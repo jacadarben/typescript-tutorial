@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var lodash_1 = require("lodash");
+var Animal_1 = require("./Animal");
 var arr = [0, 1, false, 2, undefined, 3, 4, null, "", 5, NaN];
 console.log(arr);
 console.log(lodash_1.compact(arr));
@@ -32,17 +33,11 @@ function pow(x, y) {
 }
 var arr3 = ["1", "2", "3"];
 arr3.push(pow(2, 5).toString());
-function callFlow(param) {
-    if (typeof param === "string") {
-        param++;
-        param.indexOf("a");
-    }
-    else {
-        param++;
-        param.indexOf("a");
-    }
-}
 var arrr = [];
 arrr.push(1);
 arrr.push("1");
 arrr.push(true);
+var animal = new Animal_1.Animal("ani");
+console.log(animal.name);
+animal.name = "annie";
+animal.walk(3);
