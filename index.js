@@ -42,3 +42,7 @@ function callFlow(param) {
         param.indexOf("a");
     }
 }
+var arrr = [];
+arrr.push(1);
+arrr.push("1");
+arrr.push(true);

@@ -59,3 +59,11 @@ function callFlow(param: string | number) {
 		param.indexOf("a");
 	}
 }
+
+type MyArrType = [number?, string?, boolean?];
+
+const arrr: MyArrType = [];
+
+arrr.push(1);
+arrr.push("1");
+arrr.push(true);
