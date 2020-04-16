@@ -15,3 +15,31 @@ let age: number = 23;
 type Gender = "male" | "female";
 
 let gender: Gender = "male"
+
+interface Person {
+    first: string;
+    last: string;
+    age: number;
+    gender: Gender;
+    [key: string]: any
+}
+
+let person1: Person = {
+    first: "john",
+    last: "doe",
+    age: 23,
+    gender: "male",
+    streetNumber: 123,
+    street: "street rd",
+};
+
+let person2: Person = {
+    first: "jane",
+    last: "doe",
+    age: 43,
+    gender: "female",
+    salary: function calcSal(income: number) {
+        return income * 0.7;
+    }
+};
+

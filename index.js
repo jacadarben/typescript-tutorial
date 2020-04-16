@@ -10,3 +10,20 @@ console.log(even);
 console.log(odd);
 var age = 23;
 var gender = "male";
+var person1 = {
+    first: "john",
+    last: "doe",
+    age: 23,
+    gender: "male",
+    streetNumber: 123,
+    street: "street rd",
+};
+var person2 = {
+    first: "jane",
+    last: "doe",
+    age: 43,
+    gender: "female",
+    salary: function calcSal(income) {
+        return income * 0.7;
+    }
+};
