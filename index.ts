@@ -78,3 +78,23 @@ arrr.push(true);
 let dog = new Dog("fido", 3);
 
 dog.walk(4);
+
+class MyStringSet {
+    add(element: string) {}
+    remove(element: string) {}
+    clear(element: string) {}
+    has(element: string) {}
+}
+
+class MyNumberSet {
+    add(element: number) {}
+    remove(element: number) {}
+    clear(element: number) {}
+    has(element: number) {}
+}
+
+const map = new Set<string>();
+
+class myClass<T> {
+	constructor(param: T) {}
+}

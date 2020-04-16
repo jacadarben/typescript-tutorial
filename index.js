@@ -43,3 +43,22 @@ arrr.push(true);
 // animal.walk(3);
 var dog = new dog_1.Dog("fido", 3);
 dog.walk(4);
+var MyStringSet = /** @class */ (function () {
+    function MyStringSet() {
+    }
+    MyStringSet.prototype.add = function (element) { };
+    MyStringSet.prototype.remove = function (element) { };
+    MyStringSet.prototype.clear = function (element) { };
+    MyStringSet.prototype.has = function (element) { };
+    return MyStringSet;
+}());
+var MyNumberSet = /** @class */ (function () {
+    function MyNumberSet() {
+    }
+    MyNumberSet.prototype.add = function (element) { };
+    MyNumberSet.prototype.remove = function (element) { };
+    MyNumberSet.prototype.clear = function (element) { };
+    MyNumberSet.prototype.has = function (element) { };
+    return MyNumberSet;
+}());
+var map = new Set();
